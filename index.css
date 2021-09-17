@@ -17,10 +17,11 @@ nav{
 	font-size: 1.5rem;
 }
 
-#landing_page , #project_page, #tools_page , #contact_page{
+#landing_page{
 	margin: 0;
 	padding: 0;
-	
+	/*min-height: 100vh;
+	width: 100%;*/
 }
 
 #mainpage{
@@ -90,6 +91,20 @@ nav{
 	max-width: 100%;
 }
 
+#project_page{
+	margin: 0;
+	padding: 0;
+}
+
+#tools_page{
+	margin: 0;
+	padding: 0;
+}
+
+#contact_page{
+	margin: 0;
+	padding: 0;
+}
 
 #gmap_canvas{
 	height: 70vh;
