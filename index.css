@@ -2,53 +2,117 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-size: 20px;
+}	
+
+.container-fluid{
+	font-family: 'Indie Flower', monospace;
+	margin: 0;
+	padding: 0;
 }
 
 nav{
 	background-color: #A890DB;
-
-}
-
-#landing_page{
-	height: 90vh;
-	width: 100%;
-	background-image: url(https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-
-#landing_page div{
-	padding: 1rem;
-	width: 100%;
-}
-
-#landing_page h1{
-	font-size: 4rem;
-	padding-top: 5rem;
-}
-
-#landing_page p{
+	font-family:"Pacifico",monospace;
 	font-size: 1.5rem;
 }
 
-/*#navbar-logo{
-	width: 150px;
-	height: 150px;
-	border-radius: 150px;
-}*/
-
-#navbarNavAltMarkup a{
-	margin:0  0.8rem;
+#landing_page , #project_page, #tools_page , #contact_page{
+	margin: 0;
+	padding: 0;
+	
 }
 
-#profilePic{
-	margin-left: 4rem;
-	height: 35vh;
-	width: 35vh;
+#mainpage{
+	height: auto;
+	width: 100%;
+	background-image: url(https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
 }
 
-#add_info {
-	vertical-align: top;
+.img-fluid{
+	padding: 0.5rem 0;
+	height: 60%;
+	max-width: 60%;
 }
+
+
+#intro_name{
+	font-family: "Caveat", monospace;
+	font-weight: bolder;
+	font-size: 4rem;
+}
+
+#info_desc{
+	font-size: 1.2rem;
+	padding: 1.2rem;
+}
+
+#info_email{
+	color: black;
+	text-decoration: underline;
+}
+
+.fab{
+	margin:0.5rem;
+	padding-top: 1rem;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.info_single p, #hobby_name, #proj_name, #tools_name, #contact_name, .form-group label, #info_foot {
+	font-family: "Pacifico", monospace;
+}
+
+.info_single{
+	margin-left:1rem;
+}
+
+.iconify{
+	color: red;
+	font-size: 2rem;
+	margin: 0.3rem 0;
+}
+.info_hobby{
+	margin: 1rem;
+}
+
+.info_hobby h4, .info_proj h4, #map_name h4, .modal-title{
+	font-family: "Caveat", monospace;
+	font-weight:600;
+}
+
+#proj_img{
+	height: 100%;
+	max-width: 100%;
+}
+
+
+#gmap_canvas{
+	height: 70vh;
+	width: 100%;
+	padding-top: 1rem;
+}
+
+#send_button{
+	width: 100%;
+	font-size: 1.2rem;
+	font-family: "Caveat", monospace;
+}
+
+#footer{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #A890DB;
+	font-family: "Caveat", monospace;
+	font-size: 1rem;
+}
+
+.info_r{
+	width: 35vw;
+}
+
